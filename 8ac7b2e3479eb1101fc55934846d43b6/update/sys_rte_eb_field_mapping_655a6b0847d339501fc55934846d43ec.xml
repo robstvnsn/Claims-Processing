@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="Provider">484ae70847d339501fc55934846d432a</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 14:44:25</sys_created_on>
+        <sys_id>655a6b0847d339501fc55934846d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Claims Data Mapping_etl_ihub">bb3aa70447d339501fc55934846d43c0</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_SOURCE_TEMP_MAPPING">215a6b0847d339501fc55934846d43e6</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_655a6b0847d339501fc55934846d43ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 14:44:25</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Provider_sn_ihub_target_provider">515a6b0847d339501fc55934846d43b3</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

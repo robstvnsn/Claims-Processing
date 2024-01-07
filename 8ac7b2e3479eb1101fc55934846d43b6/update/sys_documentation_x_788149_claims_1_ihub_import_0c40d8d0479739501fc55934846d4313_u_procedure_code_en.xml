@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_procedure_code" label="Procedure Code" language="en" table="x_788149_claims_1_ihub_import_0c40d8d0479739501fc55934846d4313">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_procedure_code</element>
+            <help/>
+            <hint/>
+            <label>Procedure Code</label>
+            <language>en</language>
+            <name>x_788149_claims_1_ihub_import_0c40d8d0479739501fc55934846d4313</name>
+            <plural>Procedure Codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-19 17:30:34</sys_created_on>
+            <sys_id>97509014479739501fc55934846d43d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Procedure Code</sys_name>
+            <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+            <sys_update_name>sys_documentation_x_788149_claims_1_ihub_import_0c40d8d0479739501fc55934846d4313_u_procedure_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-19 17:30:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

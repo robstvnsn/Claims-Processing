@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_state" label="State" language="en" table="x_788149_claims_1_ihub_import_c3e523f947cf7d101fc55934846d4396">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <help/>
+            <hint/>
+            <label>State</label>
+            <language>en</language>
+            <name>x_788149_claims_1_ihub_import_c3e523f947cf7d101fc55934846d4396</name>
+            <plural>States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-12 14:42:04</sys_created_on>
+            <sys_id>3ea6a33d47cf7d101fc55934846d4343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State</sys_name>
+            <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+            <sys_update_name>sys_documentation_x_788149_claims_1_ihub_import_c3e523f947cf7d101fc55934846d4396_u_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-12 14:42:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Claim Status" name="Claim Status">2966150d47e3bd901fc55934846d4395</category>
+        <collection>x_788149_claims_1_procedure_used</collection>
+        <condition table="x_788149_claims_1_procedure_used">state=processed^EQ<item display_value="Processed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="processed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hello,&nbsp;</span></p>
+<p><span style="font-size: 12pt;">You are receveing this email to inform you that your claim has been processed. If you have any questions, please contact the customer service number on the back of your ID card.</span></p>
+<p><span style="font-size: 12pt;">Thank you for being a member!</span></p>
+<p><span style="font-size: 12pt;">Number: ${number}<br /></span></p>
+<p><span style="font-size: 12pt;">State: ${state}<br /></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Notify Claim Processed</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>c25aab0847d339501fc55934846d43bd</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Good News! Your Claim has been processed</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 17:20:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c4d91054727bd901fc55934846d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notify Claim Processed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sysevent_email_action_5c4d91054727bd901fc55934846d43bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 17:20:52</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

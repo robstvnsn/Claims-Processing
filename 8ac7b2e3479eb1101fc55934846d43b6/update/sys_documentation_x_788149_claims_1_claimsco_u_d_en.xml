@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_d" label="D" language="en" table="x_788149_claims_1_claimsco">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_d</element>
+            <help/>
+            <hint/>
+            <label>D</label>
+            <language>en</language>
+            <name>x_788149_claims_1_claimsco</name>
+            <plural>Ds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 17:21:56</sys_created_on>
+            <sys_id>0ba14fad478b3d101fc55934846d43fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>D</sys_name>
+            <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+            <sys_update_name>sys_documentation_x_788149_claims_1_claimsco_u_d_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 17:21:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
