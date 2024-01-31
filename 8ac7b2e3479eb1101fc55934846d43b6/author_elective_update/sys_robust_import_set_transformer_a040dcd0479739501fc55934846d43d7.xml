@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for Procedure Used Data Mapping</description>
+        <name>Procedure Used Data Mapping_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine/>
+        <source_table>x_788149_claims_1_ihub_import_0c40d8d0479739501fc55934846d4313</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 17:30:06</sys_created_on>
+        <sys_id>a040dcd0479739501fc55934846d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Procedure Used Data Mapping_rte_ihub</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_a040dcd0479739501fc55934846d43d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 17:30:06</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</application>
+        <file_path/>
+        <instance_id>550b08cedbbd3998b1eb9027c596199a</instance_id>
+        <instance_name>dev183166</instance_name>
+        <name>sys_robust_import_set_transformer_a040dcd0479739501fc55934846d43d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>10</batch_size><description>RTE definition for Procedure Used Data Mapping</description><name>Procedure Used Data Mapping_rte_ihub</name><properties/><robust_transform_engine/><source_table>x_788149_claims_1_ihub_import_0c40d8d0479739501fc55934846d4313</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-19 17:30:06</sys_created_on><sys_id>a040dcd0479739501fc55934846d43d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Procedure Used Data Mapping_rte_ihub</sys_name><sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package><sys_policy/><sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope><sys_update_name>sys_robust_import_set_transformer_a040dcd0479739501fc55934846d43d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-19 17:30:06</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload_hash>1263829977</payload_hash>
+        <record_name>Procedure Used Data Mapping_rte_ihub</record_name>
+        <reverted_from/>
+        <source>387e48e8d9b13110cedf7dffddb48f09</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:32:42</sys_created_on>
+        <sys_id>07c643c2476331100a48f9cf016d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce1fad8390000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:32:42</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>03c643c2196331100fc70aa880796682</update_guid>
+        <update_guid_history>03c643c2196331100fc70aa880796682:0,2440dcd040973950caf759e10a1d93d9:-923649784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:32:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>111c9f901a3d4140903d561a42999000</sys_id>
+        <sys_metadata>a040dcd0479739501fc55934846d43d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Procedure Used Data Mapping_rte_ihub</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_scope_delete display_value="">14bb707518ec4cd8807425f4d023d6c4</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_a040dcd0479739501fc55934846d43d7</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_a040dcd0479739501fc55934846d43d7">07c643c2476331100a48f9cf016d4382</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:32:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

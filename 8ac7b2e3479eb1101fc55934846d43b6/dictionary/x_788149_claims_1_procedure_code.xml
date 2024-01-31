@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="42f41b274712f1101fc55934846d4359" label="Procedure code" max_length="40" name="x_788149_claims_1_procedure_code" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="True" label="Active" mandatory="true" max_length="255" name="active" type="boolean"/>
+        <element label="Code" mandatory="true" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="40" name="descriptio0" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="172" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Procedure Codes" max_length="40" name="procedure_codes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for Claims Data Mapping</description>
+        <name>Claims Data Mapping_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine display_value="Claims Data Mapping_etl_ihub">8e64c3ce472331100a48f9cf016d4378</robust_transform_engine>
+        <source_table>x_788149_claims_1_ihub_import_716487ce472331100a48f9cf016d43a5</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-07 03:22:15</sys_created_on>
+        <sys_id>4e64c3ce472331100a48f9cf016d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claims Data Mapping_rte_ihub</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_4e64c3ce472331100a48f9cf016d437b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:22:15</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>

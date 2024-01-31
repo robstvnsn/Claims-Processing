@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>ih_import_FDf7e647c2686331107594611eb376fe28</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8ac7b2e3479eb1101fc55934846d43b6</scope_name>
+        <serialized_content>{"FlowDesigner:ih_import_FDf7e647c2686331107594611eb376fe28":{"u_number":"String","u_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Number\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_claimed_amount":"Integer","u_claimed_amount.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Claimed Amount\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_procedure_code":"Integer","u_procedure_code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Procedure Code\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_authorized_amount":"String","u_authorized_amount.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Authorized Amount\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_denied_reason":"String","u_denied_reason.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Denied Reason\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_state":"String","u_state.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"State\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:ih_import_FDf7e647c2686331107594611eb376fe28.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"ih_import_FDf7e647c2686331107594611eb376fe28\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-07 03:33:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bbe647c2476331100a48f9cf016d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ih_import_FDf7e647c2686331107594611eb376fe28</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_complex_object_bbe647c2476331100a48f9cf016d4328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:33:17</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

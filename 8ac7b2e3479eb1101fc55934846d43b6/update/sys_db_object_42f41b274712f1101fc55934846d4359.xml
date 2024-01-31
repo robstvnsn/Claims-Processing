@@ -13,7 +13,7 @@
         <label>Procedure code</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_788149_claims_1_procedure_code</name>
-        <number_ref display_value="">c8a5a2db4776b1101fc55934846d4309</number_ref>
+        <number_ref display_value="PRC">c8a5a2db4776b1101fc55934846d4309</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
@@ -24,9 +24,9 @@
         <sys_id>42f41b274712f1101fc55934846d4359</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Procedure code</sys_name>
-        <sys_package display_value="">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
         <sys_policy/>
-        <sys_scope display_value="">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
         <sys_update_name>sys_db_object_42f41b274712f1101fc55934846d4359</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-04 15:33:05</sys_updated_on>

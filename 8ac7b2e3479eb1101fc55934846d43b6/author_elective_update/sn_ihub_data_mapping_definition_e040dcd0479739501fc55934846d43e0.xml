@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="DELETE">
+        <integration_table>sys_data_source</integration_table>
+        <published_source_structure/>
+        <record_id>4040d8d0479739501fc55934846d4315</record_id>
+        <source_structure/>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 17:30:06</sys_created_on>
+        <sys_id>e040dcd0479739501fc55934846d43e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_e040dcd0479739501fc55934846d43e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 17:30:07</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</application>
+        <file_path/>
+        <instance_id>550b08cedbbd3998b1eb9027c596199a</instance_id>
+        <instance_name>dev183166</instance_name>
+        <name>sn_ihub_data_mapping_definition_e040dcd0479739501fc55934846d43e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition"><sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE"><integration_table>sys_data_source</integration_table><published_source_structure/><record_id>4040d8d0479739501fc55934846d4315</record_id><source_structure/><sys_class_name>sn_ihub_data_mapping_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-19 17:30:06</sys_created_on><sys_id>e040dcd0479739501fc55934846d43e0</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package><sys_policy/><sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope><sys_update_name>sn_ihub_data_mapping_definition_e040dcd0479739501fc55934846d43e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-19 17:30:07</sys_updated_on></sn_ihub_data_mapping_definition></record_update>]]></payload>
+        <payload_hash>332033151</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>387e48e8d9b13110cedf7dffddb48f09</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:32:42</sys_created_on>
+        <sys_id>0fc643c2476331100a48f9cf016d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce1fad9490000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:32:42</sys_updated_on>
+        <type>Integration Data Mapping Definition</type>
+        <update_guid>cbc643c20363311031ea845e4c266eb0</update_guid>
+        <update_guid_history>cbc643c20363311031ea845e4c266eb0:0,c7c643c2c46331104230e496611143ae:0,f84050d0c0973950df5c571a094c5748:325802868,2c40dcd0fe9739508b623b9b7ac8dde1:368331680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4bc643c2476331100a48f9cf016d43ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:32:42</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_data_mapping_definition">sn_ihub_data_mapping_definition</sys_db_object>
+        <sys_id>6f03e6cebd064c88ba6b289bf151f440</sys_id>
+        <sys_metadata>e040dcd0479739501fc55934846d43e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_scope_delete display_value="">14bb707518ec4cd8807425f4d023d6c4</sys_scope_delete>
+        <sys_update_name>sn_ihub_data_mapping_definition_e040dcd0479739501fc55934846d43e0</sys_update_name>
+        <sys_update_version display_value="sn_ihub_data_mapping_definition_e040dcd0479739501fc55934846d43e0">0fc643c2476331100a48f9cf016d43c9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:32:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

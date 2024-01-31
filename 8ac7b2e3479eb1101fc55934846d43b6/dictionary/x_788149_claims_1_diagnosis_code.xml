@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="13b3e61b4776b1101fc55934846d4308" label="Diagnosis Code" max_length="40" name="x_788149_claims_1_diagnosis_code" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="True" label="Active" max_length="255" name="active" type="boolean"/>
+        <element label="Code" mandatory="true" max_length="40" name="code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="128" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Diagnosis Codes" max_length="40" name="diagnosis_codes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

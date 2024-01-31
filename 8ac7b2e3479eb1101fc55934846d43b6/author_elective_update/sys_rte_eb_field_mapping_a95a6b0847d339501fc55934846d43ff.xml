@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 14:44:25</sys_created_on>
+        <sys_id>a95a6b0847d339501fc55934846d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">bb3aa70447d339501fc55934846d43c0</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_TEMP_TARGET_MAPPING">a15a6b0847d339501fc55934846d43f4</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_a95a6b0847d339501fc55934846d43ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 14:44:25</sys_updated_on>
+        <target_sys_rte_eb_field/>
+    </sys_rte_eb_field_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</application>
+        <file_path/>
+        <instance_id>550b08cedbbd3998b1eb9027c596199a</instance_id>
+        <instance_name>dev183166</instance_name>
+        <name>sys_rte_eb_field_mapping_a95a6b0847d339501fc55934846d43ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>100</order><referenced_sys_rte_eb_entity/><source_sys_rte_eb_field/><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-19 14:44:25</sys_created_on><sys_id>a95a6b0847d339501fc55934846d43ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package><sys_policy/><sys_rte_eb_definition display_value="">bb3aa70447d339501fc55934846d43c0</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="IHUB_TEMP_TARGET_MAPPING">a15a6b0847d339501fc55934846d43f4</sys_rte_eb_entity_mapping><sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope><sys_update_name>sys_rte_eb_field_mapping_a95a6b0847d339501fc55934846d43ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-19 14:44:25</sys_updated_on><target_sys_rte_eb_field/></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload_hash>-1796867594</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>387e48e8d9b13110cedf7dffddb48f09</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:21:27</sys_created_on>
+        <sys_id>92344bce472331100a48f9cf016d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce1f08db80000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:21:27</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>de344bce0a233110e1f5b44c30ea4934</update_guid>
+        <update_guid_history>de344bce0a233110e1f5b44c30ea4934:0,b534c7ce112331106a98aaa8cae8e0a8:0,e55aab0858d339501a299bea781c1400:760192332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:21:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>136472e7a3444240b0f46436cdf78100</sys_id>
+        <sys_metadata>a95a6b0847d339501fc55934846d43ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_scope_delete display_value="">14bb707518ec4cd8807425f4d023d6c4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_mapping_a95a6b0847d339501fc55934846d43ff</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_a95a6b0847d339501fc55934846d43ff">92344bce472331100a48f9cf016d4335</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:21:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

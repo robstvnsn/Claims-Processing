@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_788149_claims_1_procedure_code" element="NULL" name="x_788149_claims_1_procedure_code" parent="NULL" relationship="NULL" sys_domain="global" view="6679c371e821211076da10591ad2873e">09095952478bfd101fc55934846d43ae</list_id>
+            <list_id display_value="x_788149_claims_1_procedure_code" element="NULL" name="x_788149_claims_1_procedure_code" parent="NULL" relationship="NULL" sys_domain="global" view="25cac060d9313110cedf7dffddb48f4f">09095952478bfd101fc55934846d43ae</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-12-13 17:40:09</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">6679c371e821211076da10591ad2873e</view>
+            <view display_value="Reference List" name="sys_ref_list">25cac060d9313110cedf7dffddb48f4f</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

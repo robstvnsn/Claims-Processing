@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>service_offering.name</field>
+        <name>Service offering</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 14:44:03</sys_created_on>
+        <sys_id>1c4ae70847d339501fc55934846d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service offering</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Claims Data Mapping_etl_ihub">bb3aa70447d339501fc55934846d43c0</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Target_x_788149_claims_1_claims">044ae70847d339501fc55934846d4336</sys_rte_eb_entity>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_1c4ae70847d339501fc55934846d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 14:44:03</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</application>
+        <file_path/>
+        <instance_id>550b08cedbbd3998b1eb9027c596199a</instance_id>
+        <instance_name>dev183166</instance_name>
+        <name>sys_rte_eb_etl_field_1c4ae70847d339501fc55934846d439f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>service_offering.name</field><name>Service offering</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-19 14:44:03</sys_created_on><sys_id>1c4ae70847d339501fc55934846d439f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service offering</sys_name><sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package><sys_policy/><sys_rte_eb_definition display_value="Claims Data Mapping_etl_ihub">bb3aa70447d339501fc55934846d43c0</sys_rte_eb_definition><sys_rte_eb_entity display_value="Target_x_788149_claims_1_claims">044ae70847d339501fc55934846d4336</sys_rte_eb_entity><sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope><sys_update_name>sys_rte_eb_etl_field_1c4ae70847d339501fc55934846d439f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-19 14:44:03</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>1853122497</payload_hash>
+        <record_name>Service offering</record_name>
+        <reverted_from/>
+        <source>aec14b8a472331100a48f9cf016d4344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-07 03:11:28</sys_created_on>
+        <sys_id>1cf10fca472331100a48f9cf016d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce1e76a990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:11:28</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>984ae7083ad339500cbdf7de84a4f4a0</update_guid>
+        <update_guid_history>984ae7083ad339500cbdf7de84a4f4a0:1853122497</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:21:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>32f65431e34441a4b1f60cb697ccec10</sys_id>
+        <sys_metadata>1c4ae70847d339501fc55934846d439f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service offering</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_scope_delete display_value="">14bb707518ec4cd8807425f4d023d6c4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_1c4ae70847d339501fc55934846d439f</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_1c4ae70847d339501fc55934846d439f">1cf10fca472331100a48f9cf016d43ae</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:21:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

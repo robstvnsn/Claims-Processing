@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Claim Status" name="Claim Status">2966150d47e3bd901fc55934846d4395</category>
+        <category display_value="">2966150d47e3bd901fc55934846d4395</category>
         <collection>x_788149_claims_1_procedure_used</collection>
         <condition table="x_788149_claims_1_procedure_used">state=processed^EQ<item display_value="Processed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="processed"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

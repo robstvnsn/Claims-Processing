@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_set_operation">
+    <sys_rte_eb_set_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>SET_sn_ihub_target_date_received</name>
+        <operation_group/>
+        <order>0</order>
+        <overwrite_existing_value>false</overwrite_existing_value>
+        <set_value/>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_set_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 14:44:25</sys_created_on>
+        <sys_id>e55a6b0847d339501fc55934846d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SET_sn_ihub_target_date_received</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Claims Data Mapping_etl_ihub">bb3aa70447d339501fc55934846d43c0</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_788149_claims_1_claims">995a6b0847d339501fc55934846d439b</sys_rte_eb_entity>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_rte_eb_set_operation_e55a6b0847d339501fc55934846d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 14:44:25</sys_updated_on>
+        <target_sys_rte_eb_field display_value="sn_ihub_target_date_received">195a6b0847d339501fc55934846d43a5</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Set">c588011e730000102b6265a751ab9e4a</type>
+    </sys_rte_eb_set_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</application>
+        <file_path/>
+        <instance_id>550b08cedbbd3998b1eb9027c596199a</instance_id>
+        <instance_name>dev183166</instance_name>
+        <name>sys_rte_eb_set_operation_e55a6b0847d339501fc55934846d43de</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_set_operation"&gt;&lt;sys_rte_eb_set_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;SET_sn_ihub_target_date_received&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;0&lt;/order&gt;&lt;overwrite_existing_value&gt;false&lt;/overwrite_existing_value&gt;&lt;set_value/&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_set_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-19 14:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;e55a6b0847d339501fc55934846d43de&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;SET_sn_ihub_target_date_received&lt;/sys_name&gt;&lt;sys_package display_value="Claims Processing " source="x_788149_claims_1"&gt;8ac7b2e3479eb1101fc55934846d43b6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Claims Data Mapping_etl_ihub"&gt;bb3aa70447d339501fc55934846d43c0&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_788149_claims_1_claims"&gt;995a6b0847d339501fc55934846d439b&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Claims Processing "&gt;8ac7b2e3479eb1101fc55934846d43b6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_set_operation_e55a6b0847d339501fc55934846d43de&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-19 14:44:25&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="sn_ihub_target_date_received"&gt;195a6b0847d339501fc55934846d43a5&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Set"&gt;c588011e730000102b6265a751ab9e4a&lt;/type&gt;&lt;/sys_rte_eb_set_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1151448695</payload_hash>
+        <record_name>SET_sn_ihub_target_date_received</record_name>
+        <reverted_from/>
+        <source>aec14b8a472331100a48f9cf016d4344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-07 03:11:37</sys_created_on>
+        <sys_id>daf1c30e472331100a48f9cf016d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce1e78b4c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:11:37</sys_updated_on>
+        <type>RTE Entity Set Operation</type>
+        <update_guid>255a6b08bad33950a0b7189fc3f22fdf</update_guid>
+        <update_guid_history>255a6b08bad33950a0b7189fc3f22fdf:-1151448695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-07 03:21:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_set_operation">sys_rte_eb_set_operation</sys_db_object>
+        <sys_id>768ebdf8c9474a188ab88652cf57b890</sys_id>
+        <sys_metadata>e55a6b0847d339501fc55934846d43de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SET_sn_ihub_target_date_received</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_scope_delete display_value="">14bb707518ec4cd8807425f4d023d6c4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_set_operation_e55a6b0847d339501fc55934846d43de</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_set_operation_e55a6b0847d339501fc55934846d43de">daf1c30e472331100a48f9cf016d4302</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-07 03:21:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

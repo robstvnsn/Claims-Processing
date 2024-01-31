@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8366e7c047d339501fc55934846d437d" extends="task" label="Claims" max_length="40" name="x_788149_claims_1_claims" type="collection">
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Authorized Amount" max_length="20" name="authorized_amount" type="price"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Claimed Amount" max_length="40" name="claimed_amount" type="price"/>
+        <element label="Date Received" mandatory="true" max_length="255" name="date_received" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Member" mandatory="true" max_length="32" name="member" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Provider" max_length="32" name="provider" reference="x_788149_claims_1_provider" type="reference"/>
+    </element>
+</database>

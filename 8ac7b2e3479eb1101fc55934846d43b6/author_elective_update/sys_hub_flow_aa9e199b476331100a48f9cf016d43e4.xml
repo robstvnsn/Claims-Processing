@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>This provides reason for denial of codes </description>
+        <internal_name>denied_reason</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Denied Reason</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:09:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa9e199b476331100a48f9cf016d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Denied Reason</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_update_name>sys_hub_flow_aa9e199b476331100a48f9cf016d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:09:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_variable_value action="DELETE" query="document_key=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=aa9e199b476331100a48f9cf016d43e4^sys_idNOT IN6a9e199b476331100a48f9cf016d43e7"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>aa9e199b476331100a48f9cf016d43e4</id>
+        <name>Denied Reason</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:09:52</sys_created_on>
+        <sys_id>6a9e199b476331100a48f9cf016d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:09:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=6a9e199b476331100a48f9cf016d43e7"/>
+    <sys_hub_flow_input action="DELETE" query="model=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_flow_output action="DELETE" query="model=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_action_instance action="DELETE" query="flow=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_hub_flow_variable action="DELETE" query="model=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=aa9e199b476331100a48f9cf016d43e4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</application>
+        <file_path/>
+        <instance_id>550b08cedbbd3998b1eb9027c596199a</instance_id>
+        <instance_name>dev183166</instance_name>
+        <name>sys_hub_flow_aa9e199b476331100a48f9cf016d43e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description>This provides reason for denial of codes </description><internal_name>denied_reason</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Denied Reason</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 17:09:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aa9e199b476331100a48f9cf016d43e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Denied Reason</sys_name><sys_overrides/><sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package><sys_policy/><sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope><sys_update_name>sys_hub_flow_aa9e199b476331100a48f9cf016d43e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 17:09:52</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=aa9e199b476331100a48f9cf016d43e4"/><sys_variable_value action="delete_multiple" query="document_key=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_trigger_instance action="delete_multiple" query="flow=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_flow_stage action="delete_multiple" query="flow=aa9e199b476331100a48f9cf016d43e4"/><sys_flow_cat_variable_model action="delete_multiple" query="id=aa9e199b476331100a48f9cf016d43e4^sys_idNOT IN6a9e199b476331100a48f9cf016d43e7"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>aa9e199b476331100a48f9cf016d43e4</id><name>Denied Reason</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 17:09:52</sys_created_on><sys_id>6a9e199b476331100a48f9cf016d43e7</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 17:09:52</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6a9e199b476331100a48f9cf016d43e7"/><sys_hub_flow_input action="delete_multiple" query="model=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_flow_output action="delete_multiple" query="model=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_action_instance action="delete_multiple" query="flow=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_flow_logic action="delete_multiple" query="flow=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=aa9e199b476331100a48f9cf016d43e4"/><sys_hub_flow_variable action="delete_multiple" query="model=aa9e199b476331100a48f9cf016d43e4"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aa9e199b476331100a48f9cf016d43e4"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aa9e199b476331100a48f9cf016d43e4"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_aa9e199b476331100a48f9cf016d43e4"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aa9e199b476331100a48f9cf016d43e4"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=aa9e199b476331100a48f9cf016d43e4"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=aa9e199b476331100a48f9cf016d43e4"/></record_update>]]></payload>
+        <payload_hash>1265190472</payload_hash>
+        <record_name>Denied Reason</record_name>
+        <reverted_from/>
+        <source>b452070e472331100a48f9cf016d4303</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:09:52</sys_created_on>
+        <sys_id>ba9e199b476331100a48f9cf016d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf45a11420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:09:52</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>7e9e199b10633110bf174eb8bfc4f9ed</update_guid>
+        <update_guid_history>7e9e199b10633110bf174eb8bfc4f9ed:1265190472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:17:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>4a391f021b1d42689032f012e6e32810</sys_id>
+        <sys_metadata>aa9e199b476331100a48f9cf016d43e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Denied Reason</sys_name>
+        <sys_package display_value="Claims Processing " source="x_788149_claims_1">8ac7b2e3479eb1101fc55934846d43b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Processing ">8ac7b2e3479eb1101fc55934846d43b6</sys_scope>
+        <sys_scope_delete display_value="">14bb707518ec4cd8807425f4d023d6c4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_aa9e199b476331100a48f9cf016d43e4</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_aa9e199b476331100a48f9cf016d43e4">ba9e199b476331100a48f9cf016d43ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:17:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

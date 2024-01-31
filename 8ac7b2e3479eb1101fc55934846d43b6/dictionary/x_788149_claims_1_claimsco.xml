@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0fa14fad478b3d101fc55934846d43ce" extends="sys_import_set_row" label="ClaimsCo" max_length="40" name="x_788149_claims_1_claimsco" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="40" name="u_b" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name= Claimed Amount" label=" Claimed Amount " max_length="40" name="u_claimed_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Diagnosis" label="Diagnosis" max_length="40" name="u_diagnosis" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=F" label="F" max_length="40" name="u_f" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=H" label="H" max_length="40" name="u_h" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Procedure" label="Procedure" max_length="40" name="u_procedure" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Provider" label="Provider" max_length="40" name="u_provider" type="string"/>
+    </element>
+</database>

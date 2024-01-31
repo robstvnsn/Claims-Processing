@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5adcb08c470775101fc55934846d4361" label="Procedure Used" max_length="40" name="x_788149_claims_1_procedure_used" type="collection">
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Authorized Amount" max_length="40" name="authorized_amount" type="price"/>
+        <element attributes="encode_utf8=false" label="Claim" max_length="32" name="claim" reference="x_788149_claims_1_claims" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Claimed Amount" max_length="40" name="claimed_amount" type="price"/>
+        <element label="Denied Reason" max_length="2000" name="denied" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Member" mandatory="true" max_length="32" name="member" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Procedure Code" max_length="32" name="procedure_code" reference="x_788149_claims_1_procedure_code" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assessing" sequence="0" value="assessing"/>
+                <element inactive_on_update="false" label="Processed" sequence="1" value="processed"/>
+                <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="claim"/>
+        </index>
+        <index name="index2">
+            <element name="member"/>
+        </index>
+        <index name="index3">
+            <element name="procedure_code"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

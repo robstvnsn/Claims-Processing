@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6d6847a747deb1101fc55934846d432d" label="Records" max_length="40" name="x_788149_claims_1_records" type="collection">
+        <element label="Closure notes" max_length="255" name="closure_notes" type="string"/>
+        <element label="Process Date" max_length="40" name="process_date" type="glide_date"/>
+        <element label="Process Notes" max_length="40" name="process_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
